@@ -8,3 +8,7 @@ const redis = {
 const queue = kue.createQueue({
     redis
 });
+
+queue.process('index', (job, done) => {
+    index(job.data, done);
+});
