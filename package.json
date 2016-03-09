@@ -21,5 +21,8 @@
   "bugs": {
     "url": "https://github.com/corevo/ochre-agent/issues"
   },
-  "homepage": "https://github.com/corevo/ochre-agent#readme"
+  "homepage": "https://github.com/corevo/ochre-agent#readme",
+  "dependencies": {
+    "ochre-indexer": "git://github.com/corevo/ochre-indexer.git#single"
+  }
 }
