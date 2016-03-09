@@ -1,0 +1,25 @@
+{
+  "name": "ochre-agent",
+  "version": "0.0.0",
+  "description": "indexes files using kue",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/corevo/ochre-agent.git"
+  },
+  "keywords": [
+    "index",
+    "file",
+    "kue",
+    "ochre"
+  ],
+  "author": "corevo",
+  "license": "GPL-2.0",
+  "bugs": {
+    "url": "https://github.com/corevo/ochre-agent/issues"
+  },
+  "homepage": "https://github.com/corevo/ochre-agent#readme"
+}
