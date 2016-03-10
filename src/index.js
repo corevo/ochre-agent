@@ -10,5 +10,6 @@ const queue = kue.createQueue({
 });
 
 queue.process('index', (job, done) => {
-    index(job.data, done);
+    console.log('indexing: ' + job.data.file);
+    index(job.data.file, done);
 });
