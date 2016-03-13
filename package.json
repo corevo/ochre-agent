@@ -26,6 +26,6 @@
     "babel-preset-es2015": "^6.6.0",
     "babel-preset-stage-0": "^6.5.0",
     "kue": "^0.10.5",
-    "ochre-indexer": "git://github.com/corevo/ochre-indexer.git#single"
+    "ochre-indexer": "^0.1.0"
   }
 }
