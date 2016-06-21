@@ -1,6 +1,6 @@
 {
   "name": "ochre-agent",
-  "version": "0.0.0",
+  "version": "0.1.0",
   "description": "indexes files using kue",
   "main": "index.js",
   "scripts": {
