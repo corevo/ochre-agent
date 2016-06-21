@@ -1,4 +1,4 @@
-import index from 'ochre-indexer';
+import { index, deleteIndex } from 'ochre-indexer';
 import kue from 'kue';
 
 const redis = {
@@ -12,4 +12,8 @@ const queue = kue.createQueue({
 queue.process('index', (job, done) => {
     console.log('indexing: ' + job.data.file);
     index(job.data.file, done);
+});
+queue.process('delete', (job, done) => {
+    console.log('deleting: ' + job.data.file);
+    deleteIndex(job.data.file, done);
 });
